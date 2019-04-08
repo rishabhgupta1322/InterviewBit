@@ -1,5 +1,5 @@
 int Solution::maxSubArray(const vector<int> &A) {
-    int i, pos, max=A[0], curr_max;
+    int i, pos, max=A[0], curr_max=0;
     for(i=0;i<A.size();i++)
         if(A[i]>max){ 
             max = A[i]; 
